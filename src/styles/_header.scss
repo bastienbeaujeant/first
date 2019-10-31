@@ -1,0 +1,14 @@
+header {
+    background-color: $font-color-light;
+     ul{
+       list-style-type: none;
+        display: flex;
+        li{
+         padding: 20px;
+        }
+        li:hover {
+            color: white;
+            background-color: darkgray;
+        }
+    }
+}
