@@ -1,0 +1,5 @@
+$font-color: grey;
+$section-color: white;
+$title-color: blue;
+$font-color-light: lighten($font-color, 16);
+$font-color-complement: complement($font-color);

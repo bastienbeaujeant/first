@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'sidebar';
+@import 'footer';
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $font-color;
+    width: auto;
+    padding: 50px;
+}
+h1 {
+    color: $title-color;
+}
+section{
+    background-color: $font-color;
+    color: $section-color;
+}
+header {
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            padding: 20px;
+        }
+    }
+}
