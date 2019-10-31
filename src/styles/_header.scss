@@ -4,11 +4,20 @@ header {
        list-style-type: none;
         display: flex;
         li{
+        color: rgb(40, 40, 40);
          padding: 20px;
         }
         li:hover {
+            transition: .5s;
             color: white;
-            background-color: darkgray;
+            background-color: rgb(67, 67, 67);
         }
+        a {
+            text-align: center;
+        }
+    }
+    h1 {
+        color: white;
+        text-align: center;
     }
 }
