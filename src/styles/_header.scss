@@ -1,14 +1,43 @@
 header {
+<<<<<<< HEAD
     background-color: $font-color-light;
+=======
+    background-color: rgb(179, 179, 179);
+>>>>>>> dev
      ul{
        list-style-type: none;
         display: flex;
         li{
+<<<<<<< HEAD
          padding: 20px;
         }
         li:hover {
             color: white;
             background-color: darkgray;
         }
+=======
+        color: rgb(40, 40, 40);
+            color: black;
+         padding: 20px;
+        }
+        li:hover {
+            transition: .5s;
+            color: white;
+            background-color: rgb(67, 67, 67);
+        }
+        a {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    h1 {
+        color: white;
+        margin-right: 10rem;
+        text-align: center;
+>>>>>>> dev
     }
 }
